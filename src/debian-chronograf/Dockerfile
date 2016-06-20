@@ -1,4 +1,4 @@
-FROM stonevil/debian-base
+FROM quay.io/stonevil/debian-base
 MAINTAINER stonevil@gmail.com
 
 ENV CHRONOGRAF_VERSION=${CHRONOGRAF_VERSION:-0.12.0}
